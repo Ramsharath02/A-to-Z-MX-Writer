@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .text-shadow-lg {
+    text-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .text-shadow-none {
+    text-shadow: none;
+  }
+  .text-shadow-emerald {
+    text-shadow: 0 0 10px rgba(16, 185, 129, 0.7);
+  }
+  .text-shadow-teal {
+    text-shadow: 0 0 10px rgba(45, 212, 191, 0.7);
+  }
+  .text-shadow-cyan {
+    text-shadow: 0 0 10px rgba(34, 211, 238, 0.7);
+  }
+  .text-shadow-blue {
+    text-shadow: 0 0 10px rgba(96, 165, 250, 0.7);
+  }
+  .text-shadow-indigo {
+    text-shadow: 0 0 10px rgba(139, 92, 246, 0.7);
+  }
+}
